@@ -15,7 +15,7 @@ function SubmitButton() {
 
 const initialState = {
   errors: {},
-  message: null
+  message: ''
 }
 
 export function AuthForm({ message }: { message?: string }) {
